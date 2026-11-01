@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+.npm
+
+# Next.js build output and cache
+.next/
+out/
+build/
+
+# Environment files — never commit secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing / browser output
+/coverage
+/test-results
+/playwright-report
+/screenshots-temp
+
+# Vercel
+.vercel
+
+# Original source asset files superseded by renamed copies — keep out of repo
+public/images/Luxury responsive website in warm light-2.png
+public/images/Luxe software engineering workspace-1.png
+public/images/Brass Pathways for Intelligent Workflow-3.png
+public/images/Charcoal modules, golden network-4.png
+public/images/Quiet precision in the data center-5.png
+public/images/Blackvale SA ivory-gold horizontal lockup-6.png
+public/images/Blackvale SA ivory-gold monogram logo-7.png
+public/images/Blackvale SA Ivory and Gold Logo-8.png
+# Replaced fragrance images — no longer referenced
+public/images/editorial-1.jpg
+public/images/wide-1.jpg
+public/images/wide-2.jpg
+public/images/portrait-1.jpg
+public/images/hero-landscape.jpg
+public/images/featured-1.jpg
+public/images/object-1.webp
